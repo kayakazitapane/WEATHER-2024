@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url("https://source.unsplash.com/1600x900/?nature,sky,weather");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+ 
+/* Container */
+.weather-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+ 
+/* Weather Card */
+.weather-card {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  width: 80%;
+  max-width: 400px;
+}
+ 
+/* Title */
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+ 
+/* Form */
+.search-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+ 
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+ 
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #61dafb;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+ 
+.search-button:hover {
+  background-color: #21a1f1;
+}
+ 
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+ 
+/* Weather Info */
+.weather-info {
+  margin-top: 20px;
+  text-align: left;
+}
+ 
+.weather-info p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
